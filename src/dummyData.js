@@ -52,55 +52,27 @@ export const userData = [
   
 
   export const userRows = [
+
     {
       id: 1,
-      username: "Jessica Doner",
-      avatar:"https://logodix.com/logo/1617208.jpg",
-
-      email: "jdoner@ewu.edu",
-      status: "active",
-      tutor: "CS",
-
+      netid: "jsmith",
+      username: "Jackson Smith",
+      email: "jsmith@ewu.edu",
+      class: "CSCD230",
+      topic: "Algorithm",
+      
     },
     {
       id: 2,
-      username: "Jackson Smith",
-      avatar:"https://logodix.com/logo/1617208.jpg",
-
+      netid: "jsmith",
+      username: "Jash Smith",
       email: "jsmith@ewu.edu",
-      status: "inactive",
-      tutor: "CS",
+      class: "CSCD260",
+      topic: "OS",
+      
     },
-    {
-      id: 3,
-      username: "Timber William",
-      avatar:"https://logodix.com/logo/1617208.jpg",
-
-      email: "twilliam@ewu.edu",
-      status: "active",
-      tutor: "CS",
-
-    },
-    {
-      id: 4,
-      username: "Stu Steiner",
-      avatar: "https://logodix.com/logo/1617208.jpg",
-
-      email: "ssteiner@ewu.edu",
-      status: "active",
-      tutor: "CS",
-
-    },
-    {
-      id: 5,
-      username: "Anna Doe",
-      avatar: "https://logodix.com/logo/1617208.jpg",
-      email: "adoe@ewu.edu",
-      status: "active",
-      tutor: "Math",
-
-    },
-
+   
+   
   ];
 
   

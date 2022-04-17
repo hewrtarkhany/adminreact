@@ -17,12 +17,13 @@
 
 .sidebarTitle {
   font-size: 13px;
-  color: rgb(187, 186, 186);
+  color: rgb(138, 64, 64);
 }
 
 .sidebarList {
   list-style: none;
   padding: 5px;
+  position: relative;
 }
 
 .sidebarListItem {

@@ -1,0 +1,17 @@
+.fetch {
+    flex: 4;
+  }
+    
+  table {
+    border: 2px solid rgb(197, 14, 14);
+    width: 800px;
+    height: 200px;
+  }
+    
+  th {
+    border-bottom: 1px solid rgb(12, 23, 231);
+  }
+    
+  td {
+    text-align: left;
+  }

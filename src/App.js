@@ -1,23 +1,19 @@
-import Sidebar from "./components/sidebar/Sidebar";
-import Topbar from "./components/topbar/Topbar";
+import Sidebar from "./components/Sidebar";
+import Topbar from "./components/Topbar";
+import Fetch from "./components/Fetch"
 import "./App.css";
-import Home from "./pages/home/Home";
+import Home from "./components/Home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import UserList from "./pages/userList/UserList";
-import User from "./pages/user/User";
-import Classes from "./pages/classes/Classes";
-
-import NewUser from "./pages/newUser/NewUser";
+import UserList from "./components/UserList";
 
 
 function App() {
   return (
     <Router>
       <Topbar />
+
       <div className="container">
         <Sidebar />
-
-
         <Switch>
           
           <Route exact path="/">
@@ -28,20 +24,10 @@ function App() {
             <UserList />
           </Route>
 
-
-          <Route path="/user/:userId">
-            <User />
+          <Route path="/fetch">
+            <Fetch />
           </Route>
 
-
-          <Route path="/newUser">
-            <NewUser />
-          </Route>
-
-          <Route path="/classes/:class">
-            <Classes />
-          </Route>
-          
 
         </Switch>
       </div>
